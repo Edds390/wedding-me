@@ -8,7 +8,11 @@ https://wedding-me-ff80b.web.app/
 
 # Screenshots
 
-![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+![](https://github.com/wedding-me/landing.gif)
+
+![](https://github.com/wedding-me/screenshots/map.png)
+
+![](https://github.com/wedding-me/screenshots/rsvp.png)
 
 ## Features
 
