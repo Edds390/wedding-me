@@ -2,7 +2,13 @@
 
 This repository extends on Creative Tim's [Notus Svelte template](https://github.com/creativetimofficial/notus-svelte) and Firebase for a serverless and completely free wedding website to share with your guests.
 
+# Demo
+
+https://wedding-me-ff80b.web.app/
+
 # Screenshots
+
+![](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
 
 ## Features
 

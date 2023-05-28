@@ -1,0 +1,95 @@
+{
+  "rules": {
+    "users": {
+      "$uid": {
+          ".read": "$uid === auth.uid",
+          ".write": "$uid === auth.uid",
+          ".validate": "newData.hasChild('attendees')",
+        "attendees": {
+          "name-0": {
+            ".validate": "newData.isString() 
+                       && newData.val().length > 0
+                       && newData.val().length <= 140"
+          },
+          "diet-0": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-1": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-1": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-2": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-2": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-3": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-3": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-4": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-4": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-5": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-5": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-6": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-6": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-7": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-7": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-8": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-8": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-9": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-9": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-10": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-10": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-11": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-11": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "name-12": {
+            ".validate": "newData.val().length <= 140"
+          },
+          "diet-12": {
+            ".validate": "newData.val().length <= 140"
+          },
+            
+      		"$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}

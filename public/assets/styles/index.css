@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("../../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Pinyon";
+    src: url("../../fonts/Pinyon_Script/PinyonScript-Regular.ttf");
+}
